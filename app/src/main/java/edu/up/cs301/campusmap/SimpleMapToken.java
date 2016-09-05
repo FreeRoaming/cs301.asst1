@@ -11,7 +11,7 @@ import android.graphics.Paint;
  *
  * @author Andrew M. Nuxoll
  * @author Steven R. Vegdahl
- * @author <your name here>
+ * @author Eric M. Hoser
  * @version August 2015
  */
 public class SimpleMapToken {
@@ -31,7 +31,16 @@ public class SimpleMapToken {
         y = yCoord;
         radius = 15;
         paint = new Paint();
-        paint.setColor(Color.BLACK);
+
+        double redVal = Math.floor(Math.random()*256); // picks a random double between 0 and 256 and floors it such that the numbers picked at between 0 and 255
+        double greenVal = Math.floor(Math.random()*256); // picks a random double between 0 and 256 and floors it such that the numbers picked at between 0 and 255
+        double blueVal = Math.floor(Math.random()*256); // picks a random double between 0 and 256 and floors it such that the numbers picked at between 0 and 255
+
+        int intRed = (int) redVal; // sets redVal to a int so it can be used to set color
+        int intGreen = (int) greenVal; // sets greenVal to a int so it can be used to set color
+        int intBlue = (int) blueVal; // sets blueVal to a int so it can be used to set color
+
+        paint.setColor(Color.rgb(intRed, intGreen, intBlue)); // sets color of marker
     }//ctor
 
     /**

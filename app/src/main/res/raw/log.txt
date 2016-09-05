@@ -1,1 +1,27 @@
-Edit this file to record your use of outside resources in doing this assignment.
+his file should contain descriptions of all the outside resources you used on doing this assignment, as was discussed on class.
+
+Date: 4 September 2016
+
+Problem 1: Android Studio not connecting with GitHub, throwing error cannot run program "git.cmd"
+Resource used: http://stackoverflow.com/questions/16614410/android-studio-checkout-github-error-createprocess-2-windows
+Solution: Downloading an external git client to give Andriod Sutdio git's PATH
+
+Problem 2: Gradle project sync failing, throwing error
+Resource used: http://stackoverflow.com/questions/21347704/with-0-4-3-android-studio-error-gradle-project-sync-failed-basic-functionali
+Solution: Gradle needed updating, updated gradle software as suggested by Andriod Studio
+
+Problem 3: Knowing how drawRect/drawCircle work:
+Resource: https://developer.android.com/reference/android/graphics/Canvas.html
+Solution: Found the method's variable requirements
+
+Problem 4: What color is the grey in RGB
+Resource: http://www.rapidtables.com/web/color/gray-color.htm
+Solution: Its 220,220,220
+
+Problem 5: How to add objects to an array list
+Resource: http://stackoverflow.com/questions/15523966/add-item-in-array-list-of-android
+Solution: it's .add
+
+Problem 6: How to retrieve objects from an array list
+Resource: http://stackoverflow.com/questions/9664168/retrieving-an-element-from-array-list-in-android
+Solution: it's .get(index)
